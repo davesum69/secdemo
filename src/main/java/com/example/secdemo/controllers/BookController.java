@@ -36,8 +36,6 @@ public class BookController {
         b.setBookPrice(12.00);
         bookList.add(b);
 
-        //System.out.println(Book.getBook().hashCode());
-
         Integer []as=new Integer[]{2};
 
         double d1 = bookList.stream()
