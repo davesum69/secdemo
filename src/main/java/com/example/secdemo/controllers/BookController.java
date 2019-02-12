@@ -29,6 +29,13 @@ public class BookController {
         b.setBookTitle("God Father");
         b.setBookPrice(32.00);
         bookList.add(b);
+
+        b = new Book();
+        b.setBookISBN("BHT8945");
+        b.setBookTitle("Brief History");
+        b.setBookPrice(12.00);
+        bookList.add(b);
+
         //System.out.println(Book.getBook().hashCode());
 
         Integer []as=new Integer[]{2};
